@@ -15,5 +15,6 @@ public class ReadWrite {
         for(String s : lines){
             System.out.println(s);
         }
+
     }
 }
