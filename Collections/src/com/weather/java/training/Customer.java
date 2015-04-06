@@ -1,9 +1,9 @@
 package com.weather.java.training;
 
 public class Customer {
-    String firstName;
-    String lastName;
-    String email;
+    private String firstName;
+    private String lastName;
+    private String email;
 
     //getter & setters
 
@@ -29,5 +29,9 @@ public class Customer {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String toString(){
+        return "[" + firstName + ", " + lastName + ", " + email + "]";
     }
 }
